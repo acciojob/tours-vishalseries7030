@@ -1,12 +1,29 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f8;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.title h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #49a6e9;
+  margin: 0.5rem auto;
+}
+
+.container {
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto;
 }
